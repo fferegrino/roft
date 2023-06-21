@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "roft"
+version = "0.1.0"
+description = "Calculate proportions easily"
+authors = ["Antonio Feregrino <antonio.feregrino@gmail.com>"]
+license = "MIT"
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
